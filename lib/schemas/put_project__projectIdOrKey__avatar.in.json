@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "projectIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "id": {
+                    "description": "The ID of the avatar. Required when setting the project avatar, otherwise read only.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

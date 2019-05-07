@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "fieldKey": {
+            "required": true,
+            "type": "string"
+        },
+        "optionId": {
+            "required": true,
+            "type": "integer"
+        },
+        "requestBody": {
+            "properties": {
+                "config": {
+                    "type": "object"
+                },
+                "properties": {
+                    "description": "The properties can be any arbitrary key value pairs. These properties can be searched using JQL, if the extractions (see https://developer.atlassian.com/cloud/jira/platform/modules/issue-field-option-property-index/) are defined in the descriptor for the issue field module.",
+                    "type": "object"
+                },
+                "value": {
+                    "description": "The option's name, which is displayed in the UI.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

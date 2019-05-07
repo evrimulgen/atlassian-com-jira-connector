@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "key": {
+                    "description": "The key for the time tracking provider (for example, JIRA).",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The name of the time tracking provider (for example, JIRA provided time tracking).",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

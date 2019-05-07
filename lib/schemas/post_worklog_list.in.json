@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "ids": {
+                    "description": "A list of worklog IDs.",
+                    "items": {
+                        "type": "integer"
+                    },
+                    "type": "array"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

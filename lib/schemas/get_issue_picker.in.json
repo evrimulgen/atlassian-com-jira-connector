@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "currentIssueKey": {
+            "type": "string"
+        },
+        "currentJQL": {
+            "type": "string"
+        },
+        "currentProjectId": {
+            "type": "string"
+        },
+        "query": {
+            "type": "string"
+        },
+        "showSubTaskParent": {
+            "type": "boolean"
+        },
+        "showSubTasks": {
+            "type": "boolean"
+        }
+    }
+}

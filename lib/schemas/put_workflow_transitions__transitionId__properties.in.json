@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "properties": {
+        "key": {
+            "type": "string"
+        },
+        "transitionId": {
+            "required": true,
+            "type": "integer"
+        },
+        "workflowMode": {
+            "type": "string"
+        },
+        "workflowName": {
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "key": {
+                    "description": "The key of the transition property. Also known as the name of the transition property.",
+                    "type": "string"
+                },
+                "value": {
+                    "description": "The value of the transition property.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

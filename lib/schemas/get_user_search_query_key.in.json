@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "includeInactive": {
+            "type": "boolean"
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "query": {
+            "type": "string"
+        },
+        "startAt": {
+            "type": "integer"
+        }
+    }
+}

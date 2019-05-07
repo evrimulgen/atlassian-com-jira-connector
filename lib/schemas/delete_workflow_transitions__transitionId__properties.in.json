@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "key": {
+            "type": "string"
+        },
+        "transitionId": {
+            "required": true,
+            "type": "integer"
+        },
+        "workflowMode": {
+            "type": "string"
+        },
+        "workflowName": {
+            "type": "string"
+        }
+    }
+}

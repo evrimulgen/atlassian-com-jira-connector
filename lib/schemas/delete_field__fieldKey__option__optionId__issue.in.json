@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "fieldKey": {
+            "required": true,
+            "type": "string"
+        },
+        "jql": {
+            "type": "string"
+        },
+        "optionId": {
+            "required": true,
+            "type": "integer"
+        },
+        "replaceWith": {
+            "type": "integer"
+        }
+    }
+}

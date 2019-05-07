@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "accountId": {
+            "type": "string"
+        },
+        "expand": {
+            "type": "string",
+            "enum": [
+                "groups",
+                "applicationRoles"
+            ]
+        },
+        "key": {
+            "type": "string"
+        },
+        "username": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "id": {
+                    "description": "The ID of the issue link type and is used as follows:",
+                    "type": "string"
+                },
+                "inward": {
+                    "description": "The description of the issue link type inward link and is used as follows:",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The name of the issue link type and is used as follows:",
+                    "type": "string"
+                },
+                "outward": {
+                    "description": "The description of the issue link type outward link and is used as follows:",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

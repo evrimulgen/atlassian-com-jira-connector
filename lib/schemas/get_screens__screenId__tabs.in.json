@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "projectKey": {
+            "type": "string"
+        },
+        "screenId": {
+            "required": true,
+            "type": "integer"
+        }
+    }
+}

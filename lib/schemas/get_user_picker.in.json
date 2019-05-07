@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "exclude": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "excludeAccountIds": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "query": {
+            "type": "string"
+        },
+        "showAvatar": {
+            "type": "boolean"
+        }
+    }
+}

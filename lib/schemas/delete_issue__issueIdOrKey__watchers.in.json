@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "accountId": {
+            "type": "string"
+        },
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "username": {
+            "type": "string"
+        }
+    }
+}

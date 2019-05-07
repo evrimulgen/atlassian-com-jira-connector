@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "properties"
+            ]
+        },
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "startAt": {
+            "type": "integer"
+        }
+    }
+}

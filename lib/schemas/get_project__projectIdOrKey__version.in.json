@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "issuesstatus",
+                "operations",
+                "remotelinks"
+            ]
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "orderBy": {
+            "type": "string",
+            "enum": [
+                "description",
+                "name",
+                "releaseDate",
+                "sequence",
+                "startDate"
+            ]
+        },
+        "projectIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "query": {
+            "type": "string"
+        },
+        "startAt": {
+            "type": "integer"
+        },
+        "status": {
+            "type": "string"
+        }
+    }
+}

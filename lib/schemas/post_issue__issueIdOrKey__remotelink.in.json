@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "application": {
+                    "description": "The application the linked item is in.",
+                    "type": "object"
+                },
+                "globalId": {
+                    "description": "The global ID of the link, such as the ID of the item on the remote system. The maximum length is 255 characters.",
+                    "type": "string"
+                },
+                "object": {
+                    "description": "The linked item.",
+                    "type": "object"
+                },
+                "relationship": {
+                    "description": "Description of the relationship between the issue and the linked item.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

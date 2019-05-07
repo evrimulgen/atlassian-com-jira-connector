@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "key": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "startAt": {
+            "type": "integer"
+        },
+        "username": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

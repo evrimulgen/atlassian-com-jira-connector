@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "accountId": {
+            "type": "string"
+        },
+        "expand": {
+            "type": "string",
+            "enum": [
+                "sharedUsers",
+                "subscriptions"
+            ]
+        },
+        "filterName": {
+            "type": "string"
+        },
+        "groupname": {
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "orderBy": {
+            "type": "string",
+            "enum": [
+                "id",
+                "name",
+                "description",
+                "owner",
+                "favourite_count",
+                "favouritedCount",
+                "is_favourite",
+                "favourite"
+            ]
+        },
+        "owner": {
+            "type": "string"
+        },
+        "projectId": {
+            "type": "integer"
+        },
+        "startAt": {
+            "type": "integer"
+        }
+    }
+}

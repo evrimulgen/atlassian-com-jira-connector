@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "filter": {
+            "type": "string",
+            "enum": [
+                "favourite",
+                "my"
+            ]
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "startAt": {
+            "type": "integer"
+        }
+    }
+}

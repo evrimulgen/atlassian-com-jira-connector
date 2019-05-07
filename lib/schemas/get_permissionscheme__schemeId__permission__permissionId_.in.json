@@ -1,0 +1,24 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "all",
+                "field",
+                "group",
+                "permissions",
+                "projectRole",
+                "user"
+            ]
+        },
+        "permissionId": {
+            "required": true,
+            "type": "integer"
+        },
+        "schemeId": {
+            "required": true,
+            "type": "integer"
+        }
+    }
+}

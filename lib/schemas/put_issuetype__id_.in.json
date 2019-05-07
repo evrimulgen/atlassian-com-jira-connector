@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "avatarId": {
+                    "description": "The ID of an issue type avatar.",
+                    "type": "integer"
+                },
+                "description": {
+                    "description": "The description of the issue type.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The unique name for the issue type. Maximum length 60 characters.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

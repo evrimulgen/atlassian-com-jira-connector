@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "globalId": {
+            "type": "string"
+        },
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string"
+        },
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "orderBy": {
+            "type": "string"
+        },
+        "startAt": {
+            "type": "integer"
+        }
+    }
+}

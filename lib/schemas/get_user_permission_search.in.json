@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "issueKey": {
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "permissions": {
+            "type": "string"
+        },
+        "projectKey": {
+            "type": "string"
+        },
+        "query": {
+            "type": "string"
+        },
+        "startAt": {
+            "type": "integer"
+        },
+        "username": {
+            "type": "string"
+        }
+    }
+}

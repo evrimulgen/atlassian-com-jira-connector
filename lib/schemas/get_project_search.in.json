@@ -1,0 +1,42 @@
+{
+    "type": "object",
+    "properties": {
+        "action": {
+            "type": "string"
+        },
+        "categoryId": {
+            "type": "integer"
+        },
+        "expand": {
+            "type": "string",
+            "enum": [
+                "description",
+                "projectKeys",
+                "lead",
+                "issueTypes",
+                "url"
+            ]
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "orderBy": {
+            "type": "string",
+            "enum": [
+                "category",
+                "key",
+                "name",
+                "owner"
+            ]
+        },
+        "query": {
+            "type": "string"
+        },
+        "startAt": {
+            "type": "integer"
+        },
+        "typeKey": {
+            "type": "string"
+        }
+    }
+}

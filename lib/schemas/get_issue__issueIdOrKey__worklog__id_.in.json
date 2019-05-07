@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "properties"
+            ]
+        },
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

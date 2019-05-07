@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "all",
+                "field",
+                "group",
+                "permissions",
+                "projectRole",
+                "user"
+            ]
+        }
+    }
+}

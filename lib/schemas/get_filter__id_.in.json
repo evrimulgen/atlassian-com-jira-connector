@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "sharedUsers",
+                "subscriptions"
+            ]
+        },
+        "id": {
+            "required": true,
+            "type": "integer"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "overrideEditableFlag": {
+            "type": "boolean"
+        },
+        "overrideScreenSecurity": {
+            "type": "boolean"
+        }
+    }
+}

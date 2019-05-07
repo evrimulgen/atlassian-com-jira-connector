@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "description": {
+                    "description": "The description of the project category. Required on create, optional on update.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The name of the project category. Required on create, optional on update.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

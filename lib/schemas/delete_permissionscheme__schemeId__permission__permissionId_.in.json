@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "permissionId": {
+            "required": true,
+            "type": "integer"
+        },
+        "schemeId": {
+            "required": true,
+            "type": "integer"
+        }
+    }
+}

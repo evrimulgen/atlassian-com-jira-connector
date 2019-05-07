@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "scope": {
+                    "description": "The scope of the default sharing for new filters and dashboards:",
+                    "enum": [
+                        "GLOBAL",
+                        "AUTHENTICATED",
+                        "PRIVATE"
+                    ],
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "type": "object",
+    "properties": {
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "htmlBody": {
+                    "description": "The HTML body of the email notification for the issue.",
+                    "type": "string"
+                },
+                "restrict": {
+                    "type": "object"
+                },
+                "subject": {
+                    "description": "The subject of the email notification for the issue. If this is not specified, then the subject is set to the issue key and summary.",
+                    "type": "string"
+                },
+                "textBody": {
+                    "description": "The plain text body of the email notification for the issue.",
+                    "type": "string"
+                },
+                "to": {
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "operations"
+            ]
+        },
+        "projectIdOrKey": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

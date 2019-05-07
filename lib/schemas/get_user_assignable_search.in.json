@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "actionDescriptorId": {
+            "type": "integer"
+        },
+        "issueKey": {
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "project": {
+            "type": "string"
+        },
+        "query": {
+            "type": "string"
+        },
+        "startAt": {
+            "type": "integer"
+        },
+        "username": {
+            "type": "string"
+        }
+    }
+}

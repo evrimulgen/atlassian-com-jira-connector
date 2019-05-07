@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "all",
+                "field",
+                "group",
+                "permissions",
+                "projectRole",
+                "user"
+            ]
+        },
+        "projectKeyOrId": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "id": {
+                    "description": "The ID of the permission scheme to associate with the project. Use the Get all permission schemes resource to get a list of permission scheme IDs.",
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "customFieldReplacementList": {
+                    "description": "A JSON array of custom field IDs (customFieldId) and version IDs (moveTo) to update when the fields contain the deleted version.",
+                    "items": {
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "moveAffectedIssuesTo": {
+                    "description": "The ID of the version to update affectedVersion to when the field contains the deleted version.",
+                    "type": "integer"
+                },
+                "moveFixIssuesTo": {
+                    "description": "The ID of the version to update fixVersion to when the field contains the deleted version.",
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

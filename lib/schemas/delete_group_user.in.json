@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "accountid": {
+            "type": "string"
+        },
+        "groupname": {
+            "type": "string"
+        },
+        "username": {
+            "type": "string"
+        }
+    }
+}

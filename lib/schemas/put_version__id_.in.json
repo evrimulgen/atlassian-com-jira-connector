@@ -1,0 +1,67 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "archived": {
+                    "description": "Indicates that the version is archived. Optional when creating or updating a version.",
+                    "type": "boolean"
+                },
+                "description": {
+                    "description": "The description of the version. Optional when creating or updating a version.",
+                    "type": "string"
+                },
+                "issuesStatusForFixVersion": {
+                    "type": "object"
+                },
+                "moveUnfixedIssuesTo": {
+                    "description": "The URL of the self link to the version to which all unfixed issues are moved when a version is released. Not applicable when creating a version. Optional when updating a version.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The unique name of the version. Required when creating a version. Optional when updating a version. Maximum length 255 chars.",
+                    "type": "string"
+                },
+                "operations": {
+                    "description": "If the expand option operations is used, returns the list of operations available for this version. Read only.",
+                    "items": {
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "project": {
+                    "description": "Deprecated. Use projectId.",
+                    "type": "string"
+                },
+                "projectId": {
+                    "description": "The ID of the project to which this version is attached. Required when creating a version. Not applicable when updating a version.",
+                    "type": "integer"
+                },
+                "releaseDate": {
+                    "description": "The release date of the version. Expressed in ISO 8601 format (yyyy-mm-dd). Optional when creating or updating a version.",
+                    "type": "string"
+                },
+                "released": {
+                    "description": "Indicates that the version is released. If the version is released a request to release again is ignored. Not applicable when creating a version. Optional when updating a version.",
+                    "type": "boolean"
+                },
+                "remotelinks": {
+                    "description": "If the expand option remotelinks is used, returns the list of remote links stored against this version. Read only.",
+                    "items": {
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "startDate": {
+                    "description": "The start date of the version. Expressed in ISO 8601 format (yyyy-mm-dd). Optional when creating or updating a version.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "integer"
+        },
+        "requestBody": {
+            "properties": {
+                "groupname": {
+                    "description": "The name of the group to share the filter with. Set type to group.",
+                    "type": "string"
+                },
+                "projectId": {
+                    "description": "The ID of the project to share the filter with. Set type to project.",
+                    "type": "string"
+                },
+                "projectRoleId": {
+                    "description": "The ID of the project role to share the filter with. Set type to projectRole and the projectId for the project that the role is in.",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "The type of the share permission.Specify the type as follows:",
+                    "enum": [
+                        "project",
+                        "group",
+                        "projectRole",
+                        "global",
+                        "authenticated"
+                    ],
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

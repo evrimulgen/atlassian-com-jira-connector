@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "fieldName": {
+            "type": "string"
+        },
+        "fieldValue": {
+            "type": "string"
+        },
+        "predicateName": {
+            "type": "string"
+        },
+        "predicateValue": {
+            "type": "string"
+        }
+    }
+}

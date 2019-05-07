@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "permissions",
+                "user",
+                "group",
+                "projectRole",
+                "field",
+                "all"
+            ]
+        },
+        "schemeId": {
+            "required": true,
+            "type": "integer"
+        },
+        "requestBody": {
+            "properties": {
+                "holder": {
+                    "description": "The user or group being granted the permission. It consists of a type and a type-dependent parameter. See holderfor more information.",
+                    "type": "object"
+                },
+                "permission": {
+                    "description": "The permission to grant. Choose from the list of built-in permissions or from any custom permissions that have been added by apps. For more information about custom permissions, see the project permission and global permission module documentation.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

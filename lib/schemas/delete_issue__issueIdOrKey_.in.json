@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "deleteSubtasks": {
+            "type": "string"
+        },
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "after": {
+                    "description": "The URI (self link) of the version after which to place the moved version. Cannot be used with position.",
+                    "type": "string"
+                },
+                "position": {
+                    "description": "An absolute position in which to place the moved version. Cannot be used with after.",
+                    "enum": [
+                        "Earlier",
+                        "Later",
+                        "First",
+                        "Last"
+                    ],
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

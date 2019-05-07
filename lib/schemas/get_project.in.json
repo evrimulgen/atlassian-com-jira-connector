@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "description",
+                "issueTypes",
+                "lead",
+                "projectKeys"
+            ]
+        },
+        "recent": {
+            "type": "integer"
+        }
+    }
+}

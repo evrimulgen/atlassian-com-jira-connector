@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "group": {
+            "type": "string"
+        },
+        "id": {
+            "required": true,
+            "type": "integer"
+        },
+        "user": {
+            "type": "string"
+        }
+    }
+}

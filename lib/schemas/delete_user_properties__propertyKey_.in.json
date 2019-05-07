@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "accountId": {
+            "type": "string"
+        },
+        "propertyKey": {
+            "required": true,
+            "type": "string"
+        },
+        "userKey": {
+            "type": "string"
+        },
+        "username": {
+            "type": "string"
+        }
+    }
+}

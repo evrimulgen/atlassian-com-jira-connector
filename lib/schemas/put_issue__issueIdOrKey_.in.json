@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "notifyUsers": {
+            "type": "boolean"
+        },
+        "overrideEditableFlag": {
+            "type": "boolean"
+        },
+        "overrideScreenSecurity": {
+            "type": "boolean"
+        },
+        "requestBody": {
+            "properties": {
+                "fields": {
+                    "description": "List of issue screen field to update, specifying the sub-field to update and its value. This field provides a straightforward option when setting a single sub-field. When multiple sub-fields or other operations are required, use update. Fields included in here cannot be included in update.",
+                    "type": "object"
+                },
+                "historyMetadata": {
+                    "description": "Details of issue history metadata. Deprecated.",
+                    "type": "object"
+                },
+                "properties": {
+                    "description": "Details of issue properties to be add or update.",
+                    "items": {
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "transition": {
+                    "description": "Details of an issue transition.",
+                    "type": "object"
+                },
+                "update": {
+                    "description": "List of operations to perform on issue screen fields. Note that fields included in here cannot be included in fields.",
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

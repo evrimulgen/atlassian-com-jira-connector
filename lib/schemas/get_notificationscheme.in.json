@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "all",
+                "field",
+                "group",
+                "notificationSchemeEvents",
+                "projectRole",
+                "user"
+            ]
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "startAt": {
+            "type": "integer"
+        }
+    }
+}

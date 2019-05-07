@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "all",
+                "field",
+                "group",
+                "notificationSchemeEvents",
+                "projectRole",
+                "user"
+            ]
+        },
+        "id": {
+            "required": true,
+            "type": "integer"
+        }
+    }
+}

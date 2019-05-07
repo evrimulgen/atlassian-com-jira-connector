@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "comment": {
+                    "description": "A comment.",
+                    "type": "object"
+                },
+                "inwardIssue": {
+                    "description": "The ID or key of a linked issue.",
+                    "type": "object"
+                },
+                "outwardIssue": {
+                    "description": "The ID or key of a linked issue.",
+                    "type": "object"
+                },
+                "type": {
+                    "description": "This bean is used as follows:",
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "screenId": {
+            "required": true,
+            "type": "integer"
+        },
+        "tabId": {
+            "required": true,
+            "type": "integer"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "description": {
+                    "description": "The description of the issue type.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The unique name for the issue type. Maximum length 60 characters. Required.",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "Whether the issue type is subtype or standard. Defaults to standard.",
+                    "enum": [
+                        "subtask",
+                        "standard"
+                    ],
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

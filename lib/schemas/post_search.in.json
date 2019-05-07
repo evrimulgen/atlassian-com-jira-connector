@@ -1,0 +1,58 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "expand": {
+                    "description": "Use expand to include additional information about issues in the response. This parameter accepts multiple values separated by a comma:",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "fields": {
+                    "description": "A comma-separated list of fields to return for each issue, use it to retrieve a subset of fields. Allowed values",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "fieldsByKeys": {
+                    "description": "Reference fields by their key (rather than ID). The default is false.",
+                    "type": "boolean"
+                },
+                "jql": {
+                    "description": "A JQL expression.",
+                    "type": "string"
+                },
+                "maxResults": {
+                    "description": "The maximum number of items to return per page. The default is 50 and maximum is 100.",
+                    "type": "integer"
+                },
+                "properties": {
+                    "description": "A comma-separated list of up to 5 issue properties to include in the results.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "startAt": {
+                    "description": "The index of the first item to return in the page of results (page offset). The base index is 0.",
+                    "type": "integer"
+                },
+                "validateQuery": {
+                    "description": "Determines how to validate the JQL query and treat the validation results. Supported values:",
+                    "enum": [
+                        "strict",
+                        "warn",
+                        "none",
+                        "true",
+                        "false"
+                    ],
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

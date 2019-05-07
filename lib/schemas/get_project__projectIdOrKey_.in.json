@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "description",
+                "issueTypes",
+                "lead",
+                "projectKeys"
+            ]
+        },
+        "projectIdOrKey": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

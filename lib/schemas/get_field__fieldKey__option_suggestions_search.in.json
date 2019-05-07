@@ -1,0 +1,18 @@
+{
+    "type": "object",
+    "properties": {
+        "fieldKey": {
+            "required": true,
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "projectId": {
+            "type": "integer"
+        },
+        "startAt": {
+            "type": "integer"
+        }
+    }
+}

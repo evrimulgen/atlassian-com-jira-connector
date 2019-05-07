@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "fieldKey": {
+            "required": true,
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "startAt": {
+            "type": "integer"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "properties": {
+        "accountId": {
+            "type": "string"
+        },
+        "key": {
+            "type": "string"
+        },
+        "username": {
+            "type": "string"
+        }
+    }
+}

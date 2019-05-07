@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "projects.issuetypes.fields",
+                "fields",
+                "update"
+            ]
+        },
+        "issuetypeIds": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "issuetypeNames": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "projectIds": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "projectKeys": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

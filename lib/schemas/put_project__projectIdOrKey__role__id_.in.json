@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "required": true,
+            "type": "integer"
+        },
+        "projectIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "categorisedActors": {
+                    "description": "The actors to add to the project role for the project. Provide the group name or account ID. User key may be provided instead of account ID when not in GDPR-strict mode, however this is deprecated behavior. Add groups using atlassian-group-role-actor. Add users using atlassian-user-role-actor.",
+                    "type": "object"
+                },
+                "id": {
+                    "description": "The ID of the project role. Use Get all project roles to get a list of project role IDs.",
+                    "type": "integer"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

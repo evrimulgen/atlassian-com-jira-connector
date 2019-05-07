@@ -1,0 +1,60 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "renderedFields",
+                "names",
+                "schema",
+                "transitions",
+                "operations",
+                "editmeta",
+                "changelog",
+                "versionedRepresentations",
+                "fields"
+            ]
+        },
+        "fields": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "enum": [
+                "*all",
+                "*navigable",
+                "summary,comment",
+                "-description",
+                "*all,-comment"
+            ]
+        },
+        "fieldsByKeys": {
+            "type": "boolean"
+        },
+        "jql": {
+            "type": "string"
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "properties": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "startAt": {
+            "type": "integer"
+        },
+        "validateQuery": {
+            "type": "string",
+            "enum": [
+                "strict",
+                "warn",
+                "none",
+                "true",
+                "false"
+            ]
+        }
+    }
+}

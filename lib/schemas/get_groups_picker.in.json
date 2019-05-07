@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "accountId": {
+            "type": "string"
+        },
+        "exclude": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "query": {
+            "type": "string"
+        },
+        "userName": {
+            "type": "string"
+        }
+    }
+}

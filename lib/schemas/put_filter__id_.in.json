@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "sharedUsers",
+                "subscriptions"
+            ]
+        },
+        "id": {
+            "required": true,
+            "type": "integer"
+        },
+        "requestBody": {
+            "properties": {
+                "description": {
+                    "description": "A description of the filter (e.g., This filter returns open bugs for the Example project).",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The name of the filter (e.g., Open bugs for Example project). Must be unique.",
+                    "type": "string"
+                },
+                "owner": {
+                    "description": "A user.",
+                    "type": "object"
+                },
+                "sharePermissions": {
+                    "description": "The groups and projects that the filter is shared with. This can be specified when updating a filter, but not when creating a filter.",
+                    "items": {
+                        "type": "object"
+                    },
+                    "type": "array"
+                },
+                "sharedUsers": {
+                    "type": "object"
+                },
+                "subscriptions": {
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

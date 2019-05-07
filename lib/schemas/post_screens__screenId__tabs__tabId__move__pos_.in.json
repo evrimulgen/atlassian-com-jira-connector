@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "pos": {
+            "required": true,
+            "type": "integer"
+        },
+        "screenId": {
+            "required": true,
+            "type": "integer"
+        },
+        "tabId": {
+            "required": true,
+            "type": "integer"
+        }
+    }
+}

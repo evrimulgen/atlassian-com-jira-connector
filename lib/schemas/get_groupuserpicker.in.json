@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "properties": {
+        "avatarSize": {
+            "type": "string"
+        },
+        "caseInsensitive": {
+            "type": "boolean"
+        },
+        "excludeConnectAddons": {
+            "type": "boolean"
+        },
+        "fieldId": {
+            "type": "string"
+        },
+        "issueTypeId": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "projectId": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "query": {
+            "type": "string"
+        },
+        "showAvatar": {
+            "type": "boolean"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "object",
+    "properties": {
+        "propertyKey": {
+            "required": true,
+            "type": "string"
+        },
+        "requestBody": {
+            "properties": {
+                "filter": {
+                    "description": "Bulk operation filter details.",
+                    "type": "object"
+                },
+                "value": {
+                    "description": "The value of the property. The value must be a valid, non-empty JSON blob. The maximum length is 32768 characters.",
+                    "type": "object"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

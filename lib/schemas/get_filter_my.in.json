@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "sharedUsers",
+                "subscriptions"
+            ]
+        },
+        "includeFavourites": {
+            "type": "boolean"
+        }
+    }
+}

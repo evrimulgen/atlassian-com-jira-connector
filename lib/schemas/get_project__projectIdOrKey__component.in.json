@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {
+        "maxResults": {
+            "type": "integer"
+        },
+        "orderBy": {
+            "type": "string",
+            "enum": [
+                "description",
+                "issueCount",
+                "lead",
+                "name"
+            ]
+        },
+        "projectIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "query": {
+            "type": "string"
+        },
+        "startAt": {
+            "type": "integer"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "properties": {
+        "adjustEstimate": {
+            "type": "string",
+            "enum": [
+                "new",
+                "newEstimate",
+                "leave",
+                "manual",
+                "increaseBy",
+                "auto",
+                "timeSpent"
+            ]
+        },
+        "id": {
+            "required": true,
+            "type": "string"
+        },
+        "increaseBy": {
+            "type": "string"
+        },
+        "issueIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "newEstimate": {
+            "type": "string"
+        },
+        "notifyUsers": {
+            "type": "boolean"
+        },
+        "overrideEditableFlag": {
+            "type": "boolean"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "group": {
+            "type": "string"
+        },
+        "id": {
+            "required": true,
+            "type": "integer"
+        },
+        "projectIdOrKey": {
+            "required": true,
+            "type": "string"
+        },
+        "user": {
+            "type": "string"
+        }
+    }
+}

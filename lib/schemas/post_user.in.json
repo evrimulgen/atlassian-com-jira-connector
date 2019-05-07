@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "requestBody": {
+            "properties": {
+                "applicationKeys": {
+                    "description": "Deprecated, do not use.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "displayName": {
+                    "description": "The display name for the user. Required.",
+                    "type": "string"
+                },
+                "emailAddress": {
+                    "description": "The email address for the user. Required.",
+                    "type": "string"
+                },
+                "key": {
+                    "description": "The key for the user. Read-only. This property has been deprecated due to privacy changes.See the migration guide for details.",
+                    "type": "string"
+                },
+                "name": {
+                    "description": "The username for the user. This property has been deprecated due to privacy changes. See the migration guide for details.",
+                    "type": "string"
+                },
+                "notification": {
+                    "description": "Sends the user an email confirmation that they have been added to Jira. Default is false.",
+                    "type": "string"
+                },
+                "password": {
+                    "description": "A password for the user. If a password is not set, a random password is generated.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "expand": {
+            "type": "string",
+            "enum": [
+                "meta.complexity"
+            ]
+        },
+        "requestBody": {
+            "properties": {
+                "context": {
+                    "type": "object"
+                },
+                "expression": {
+                    "description": "The Jira expression to evaluate.",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "includeActive": {
+            "type": "boolean"
+        },
+        "includeInactive": {
+            "type": "boolean"
+        },
+        "maxResults": {
+            "type": "integer"
+        },
+        "property": {
+            "type": "string"
+        },
+        "query": {
+            "type": "string"
+        },
+        "startAt": {
+            "type": "integer"
+        },
+        "username": {
+            "type": "string"
+        }
+    }
+}
